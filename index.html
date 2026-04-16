@@ -425,7 +425,7 @@
           </div>
           <div class="info-item">
             <div class="info-icon"><i class="fas fa-envelope"></i></div>
-            <div><strong>Email Us</strong><br><span><a href="1stgroupacademy@gmail.com" class="__cf_email__" data-cfemail="56672522312439232637353732333b2f16313b373f3a7835393b">[email&#160;protected]</a></span></div>
+            <div><strong>Email Us</strong><br><span><a href="1stgroupacademy@gmail.com" class="__cf_email__" data-cfemail="56672522312439232637353732333b2f16313b373f3a7835393b">1stgroupacademy@gmail.com</a></span></div>
           </div>
           <div class="info-item">
             <div class="info-icon"><i class="fas fa-phone"></i></div>
@@ -529,7 +529,7 @@ async function submitForm() {
     };
 
     try {
-        const response = await fetch("https://localhost:7130/api/contact/send", {
+        const response = await fetch("https://onestgroupapi.onrender.com/api/contact/send", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -542,10 +542,8 @@ async function submitForm() {
         if (response.ok) {
             console.log("Success:", result);
 
-           
             document.getElementById("successMsg").style.display = "block";
 
-            
             document.getElementById("fname").value = "";
             document.getElementById("lname").value = "";
             document.getElementById("email").value = "";
