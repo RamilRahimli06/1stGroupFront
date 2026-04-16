@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>General English - 1st Group Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .course-hero {
+      min-height: 60vh;
+      background: var(--gradient);
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 60px;
+      position: relative;
+    }
+    .course-hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .course-icon { font-size: 56px; margin-bottom: 16px; }
+    .course-hero h1 { font-size: clamp(32px, 4vw, 48px); font-weight: 900; color: #fff; margin-bottom: 16px; }
+    .course-hero p { font-size: 17px; color: rgba(255,255,255,.9); line-height: 1.7; }
+    .course-card-box {
+      background: rgba(255,255,255,.12);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,.25);
+      border-radius: 20px;
+      padding: 32px;
+    }
+    .price-tag { font-size: 42px; font-weight: 900; color: #fff; }
+    .back-link { display: inline-block; margin-bottom: 20px; color: rgba(255,255,255,.8); text-decoration: none; }
+    .back-link:hover { color: #fff; }
+    .module-list { margin-top: 40px; }
+    .module-item { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 16px; border: 1px solid var(--border); transition: box-shadow .3s; }
+    .module-item:hover { box-shadow: var(--shadow); }
+    .module-item h3 { color: var(--primary); margin-bottom: 8px; }
+    .pill {
+      background: rgba(255,255,255,.15);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,.25);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .level-badge {
+      display: inline-block;
+      background: #10b981;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 99px;
+      margin-left: 10px;
+    }
+    @media (max-width: 900px) {
+      .course-hero-content { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar" style="position: relative; background: var(--dark);">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo"><div class="logo-icon">1G</div><div class="logo-text"><span>1st Group</span> Academy</div></a>
+      <div class="nav-links"><a href="../index.html#contact" class="btn-enroll">Enroll Now</a></div>
+    </div>
+  </nav>
+
+  <section class="course-hero">
+    <div class="course-hero-content">
+      <div>
+        <a href="../index.html#courses" class="back-link">← Back to Courses</a>
+        <div class="course-icon"><i class="fas fa-comments"></i></div>
+        <h1>General English <span class="level-badge">A1 to C1</span></h1>
+        <p>Focus on fluent and natural speaking. Grammar taught practically with lessons based on real-life situations. Goal: develop a speaking student who can communicate confidently in any everyday situation.</p>
+        <div style="display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap;">
+          <span class="pill">⏱ 8 Weeks</span>
+          <span class="pill">📚 6 Modules</span>
+          <span class="pill">🎓 Beginner to Upper-Intermediate</span>
+          <span class="pill">🎤 Speaking Focus</span>
+        </div>
+      </div>
+      <div class="course-card-box">
+        <div class="price-tag">Contact Us</div>
+        <ul class="includes-list" style="list-style: none; margin: 20px 0;">
+          <li>✓ Complete 4-skill English training</li>
+          <li>✓ Interactive speaking sessions</li>
+          <li>✓ Grammar & vocabulary development</li>
+          <li>✓ Weekly practice assignments</li>
+          <li>✓ Progress tracking & feedback</li>
+          <li>✓ Certificate of completion</li>
+        </ul>
+        <button class="btn-white" style="width:100%" onclick="alert('Contact us at +994 (55) 580-06-12 to enroll')">Enroll Now →</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" style="padding: 60px 24px;">
+    <h2 class="section-title">Course Modules</h2>
+    <div class="module-list">
+      <div class="module-item">
+        <h3>Module 1: English Foundations</h3>
+        <p>Basic sentence structure, present tenses, common vocabulary, pronunciation basics, and simple conversations with practice activities.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 2: Everyday Communication</h3>
+        <p>Introducing yourself, asking and answering questions, daily routines, shopping and travel English, and role-play practice sessions.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 3: Grammar & Structure</h3>
+        <p>Past and future tenses, modal verbs, prepositions, conditionals, and grammar practice tests for mastery.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 4: Reading & Listening</h3>
+        <p>Short text reading, listening to conversations, understanding main ideas, note-taking techniques, and comprehension exercises.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 5: Speaking & Pronunciation</h3>
+        <p>Fluency development, accent reduction, natural intonation, discussion techniques, and presentation practice.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 6: Real-Life Application</h3>
+        <p>Job interviews, social situations, phone conversations, email writing, and final speaking assessment.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer style="background: var(--dark); padding: 48px 24px; text-align: center; color: rgba(255,255,255,.6);">
+    <p>© 2025 1st Group Academy. All rights reserved.</p>
+  </footer>
+</body>
+</html>

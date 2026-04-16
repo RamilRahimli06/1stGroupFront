@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAT Verbal Preparation - 1st Group Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .course-hero {
+      min-height: 60vh;
+      background: var(--gradient);
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 60px;
+      position: relative;
+    }
+    .course-hero-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .course-icon { font-size: 56px; margin-bottom: 16px; }
+    .course-hero h1 { font-size: clamp(32px, 4vw, 48px); font-weight: 900; color: #fff; margin-bottom: 16px; }
+    .course-hero p { font-size: 17px; color: rgba(255,255,255,.9); line-height: 1.7; }
+    .course-card-box {
+      background: rgba(255,255,255,.12);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,.25);
+      border-radius: 20px;
+      padding: 32px;
+    }
+    .price-tag { font-size: 42px; font-weight: 900; color: #fff; }
+    .back-link { display: inline-block; margin-bottom: 20px; color: rgba(255,255,255,.8); text-decoration: none; }
+    .back-link:hover { color: #fff; }
+    .module-list { margin-top: 40px; }
+    .module-item { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 16px; border: 1px solid var(--border); transition: box-shadow .3s; }
+    .module-item:hover { box-shadow: var(--shadow); }
+    .module-item h3 { color: var(--primary); margin-bottom: 8px; }
+    .pill {
+      background: rgba(255,255,255,.15);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,.25);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .includes-list li { margin-bottom: 10px; }
+    @media (max-width: 900px) {
+      .course-hero-content { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <nav id="navbar" style="position: relative; background: var(--dark);">
+    <div class="nav-inner">
+      <a href="../index.html" class="logo"><div class="logo-icon">1G</div><div class="logo-text"><span>1st Group</span> Academy</div></a>
+      <div class="nav-links"><a href="../index.html#contact" class="btn-enroll">Enroll Now</a></div>
+    </div>
+  </nav>
+
+  <section class="course-hero">
+    <div class="course-hero-content">
+      <div>
+        <a href="../index.html#courses" class="back-link">← Back to Courses</a>
+        <div class="course-icon"><i class="fas fa-book-open"></i></div>
+        <h1>SAT Verbal Preparation</h1>
+        <p>Systematic program focused on academic reading, critical analysis, and advanced vocabulary. Learn logical thinking and high score strategies to excel on the SAT Evidence-Based Reading and Writing section.</p>
+        <div style="display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap;">
+          <span class="pill">⏱ 10 Weeks</span>
+          <span class="pill">📚 7 Modules</span>
+          <span class="pill">🎓 Advanced Level</span>
+          <span class="pill">📝 Digital SAT Ready</span>
+        </div>
+      </div>
+      <div class="course-card-box">
+        <div class="price-tag">Contact Us</div>
+        <ul class="includes-list" style="list-style: none; margin: 20px 0;">
+          <li>✓ Complete SAT Verbal coverage</li>
+          <li>✓ Reading & Writing mastery</li>
+          <li>✓ 500+ practice questions</li>
+          <li>✓ Full-length mock exams</li>
+          <li>✓ Score improvement strategies</li>
+          <li>✓ Certificate of completion</li>
+        </ul>
+        <button class="btn-white" style="width:100%" onclick="alert('Contact us at +994 (55) 580-06-12 to enroll')">Enroll Now →</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" style="padding: 60px 24px;">
+    <h2 class="section-title">Course Modules</h2>
+    <div class="module-list">
+      <div class="module-item">
+        <h3>Module 1: SAT Overview & Strategy</h3>
+        <p>Understanding the Digital SAT format, scoring system, adaptive testing strategy, and goal score planning with diagnostic practice test.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 2: Reading Comprehension Mastery</h3>
+        <p>Active reading techniques, vocabulary in context, main idea and inference questions, evidence-based questions, and time-saving strategies.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 3: Writing & Language</h3>
+        <p>Grammar rules review, sentence structure, punctuation mastery, transitions and logic, style and tone questions, and writing practice tests.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 4: Advanced Reading Strategies</h3>
+        <p>Paired passages, historical documents, science and social science texts, data interpretation questions, and comparative analysis.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 5: Rhetorical Skills</h3>
+        <p>Author's purpose, argument structure, evidence evaluation, logical reasoning, and effective writing techniques.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 6: Full-Length Mock Exams</h3>
+        <p>3 complete digital SAT simulations with detailed score analysis and personalized improvement plans.</p>
+      </div>
+      <div class="module-item">
+        <h3>Module 7: Test Day Psychology</h3>
+        <p>Anxiety management, time management, elimination strategies, and confidence building for peak performance.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer style="background: var(--dark); padding: 48px 24px; text-align: center; color: rgba(255,255,255,.6);">
+    <p>© 2025 1st Group Academy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
