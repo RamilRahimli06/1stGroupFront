@@ -247,6 +247,155 @@ const translations = {
     footer_faq: "FAQ",
     footer_contact: "Contact"
   }
+az: {
+    nav_about: "Haqqımızda",
+    nav_courses: "Kurslar",
+    nav_instructors: "Müəllimlər",
+    nav_testimonials: "Rəylər",
+    nav_faq: "Suallar",
+    nav_contact: "Əlaqə",
+    nav_enroll: "Qeydiyyat",
+
+    hero_badge: "⭐ 5000+ tələbə tərəfindən seçilib",
+    hero_title: "1st Group Academy ilə <span>Dilləri və Rəqəmsal Bacarıqları</span> Öyrən",
+    hero_subtitle: "Peşəkar müəllimlər tərəfindən hazırlanmış dil və inkişaf proqramları.",
+    hero_browse_courses: "🎓 Kurslara bax",
+    hero_learn_more: "▶ Ətraflı",
+    hero_students: "Tələbə",
+    hero_satisfaction: "Məmnunluq",
+    hero_experts: "Ekspert",
+    hero_course_preview_title: "Canlı dərslər",
+    hero_course_progress_label: "78% tamamlandı",
+
+    about_label: "Haqqımızda",
+    about_title: "Niyə 1st Group Academy?",
+    about_p1: "1ST Group Academy praktik və nəticəyönümlü təhsil təqdim edən müasir mərkəzdir.",
+    about_p2: "Məqsədimiz real və davamlı bacarıqlar formalaşdırmaqdır.",
+    about_feature_1: "✓ IELTS, SAT hazırlıq",
+    about_feature_2: "✓ General və Business English",
+    about_feature_3: "✓ SMM təlimi",
+    about_feature_4: "✓ Təcrübəli müəllimlər",
+    about_get_started: "Başla →",
+
+    courses_label: "Proqramlar",
+    courses_title: "Kurslarımız",
+    courses_sub: "Sənin məqsədinə uyğun kurs seç.",
+    course_badge_bestseller: "Populyar",
+    course_badge_popular: "Seçilən",
+    course_badge_new: "Yeni",
+    course_tag_all_levels: "Bütün səviyyələr",
+
+    course_ielts_title: "IELTS Hazırlıq",
+    course_ielts_desc: "Real imtahan simulyasiyaları ilə hazırlıq.",
+    course_sat_title: "SAT (Verbal)",
+    course_sat_desc: "Akademik oxu və analiz.",
+    course_general_english_title: "General English",
+    course_general_english_desc: "Danışıq və gündəlik istifadə.",
+    course_business_english_title: "Business English",
+    course_business_english_desc: "İş mühiti üçün ünsiyyət.",
+    course_grammar_title: "Qrammatika",
+    course_grammar_desc: "Sistemli qrammatika öyrənilməsi.",
+    course_smm_title: "SMM",
+    course_smm_desc: "Digital marketing və content strategiya.",
+
+    section_label_our_team: "Komandamız",
+    section_title_meet_instructors: "Müəllimlərimiz",
+    section_sub_learn_from_professionals: "Peşəkarlardan öyrən.",
+
+    instructor_role_ceo: "CEO və müəllim",
+    instructor_role_english: "İngilis dili müəllimi",
+
+    instructor_bio_toghrul: "IELTS və SAT üzrə mütəxəssis.",
+    instructor_bio_nazrin: "General English üzrə müəllim.",
+    instructor_bio_gulsavad: "Danışıq üzrə mütəxəssis.",
+    instructor_bio_gulara: "Təcrübəli müəllim.",
+    instructor_bio_farid: "İmtahan hazırlığı üzrə mütəxəssis.",
+
+    section_label_student_reviews: "Tələbə rəyləri",
+    section_title_what_students_say: "Tələbələr nə deyir",
+    section_sub_thousands_students_transformed: "Minlərlə tələbə inkişaf edib.",
+
+    testimonial_1: "IELTS nəticəm 7.5 oldu!",
+    testimonial_2: "İşimdə yüksəliş əldə etdim.",
+    testimonial_3: "Öz biznesimi başladım.",
+
+    section_title_faq: "Tez-tez verilən suallar",
+    section_sub_have_questions: "Suallarınıza cavab tapın.",
+
+    faq_q1: "Təcrübə lazımdır?",
+    faq_a1: "Xeyr, sıfırdan başlayırıq.",
+    faq_q2: "Sertifikat verilir?",
+    faq_a2: "Bəli, kurs bitdikdə verilir.",
+    faq_q3: "Giriş müddəti?",
+    faq_a3: "Ömürlük giriş.",
+    faq_q4: "Dərslər necədir?",
+    faq_a4: "Həm canlı, həm video.",
+    faq_q5: "Qrup paketləri?",
+    faq_a5: "Bəli, mövcuddur.",
+
+    contact_label: "Əlaqə",
+    contact_title: "Qeydiyyat və Əlaqə",
+    contact_sub: "24 saat ərzində cavab verəcəyik.",
+    contact_info_title: "Sənin yolun burada başlayır",
+    contact_info_desc: "Biz kömək etməyə hazırıq.",
+
+    form_submit: "Göndər →",
+
+    counters_active_students: "Aktiv tələbə",
+    counters_expert_courses: "Kurs",
+    counters_instructors: "Müəllim",
+    counters_satisfaction: "Məmnunluq",
+
+    footer_desc: "2018-dən bəri inkişaf etdiririk.",
+    footer_courses: "Kurslar",
+    footer_ielts: "IELTS",
+    footer_sat: "SAT",
+    footer_ge: "General English",
+    footer_be: "Business English",
+    footer_grammar: "Qrammatika",
+    footer_smm: "SMM",
+    footer_academy: "Akademiya",
+    footer_about: "Haqqımızda",
+    footer_instructors: "Müəllimlər",
+    footer_reviews: "Rəylər",
+    footer_faq: "FAQ",
+    footer_contact: "Əlaqə"
+  },
+
+  ru: {
+    nav_about: "О нас",
+    nav_courses: "Курсы",
+    nav_instructors: "Преподаватели",
+    nav_testimonials: "Отзывы",
+    nav_faq: "FAQ",
+    nav_contact: "Контакты",
+    nav_enroll: "Записаться",
+
+    hero_badge: "⭐ Более 5000 студентов",
+    hero_title: "Изучайте <span>языки и цифровые навыки</span>",
+    hero_subtitle: "Курсы от профессиональных преподавателей.",
+    hero_browse_courses: "🎓 Курсы",
+    hero_learn_more: "▶ Подробнее",
+    hero_students: "Студенты",
+    hero_satisfaction: "Удовлетворение",
+    hero_experts: "Эксперты",
+
+    about_label: "О нас",
+    about_title: "Почему мы?",
+    about_p1: "Современный образовательный центр.",
+    about_p2: "Формируем реальные навыки.",
+
+    courses_label: "Программы",
+    courses_title: "Наши курсы",
+
+    contact_label: "Контакты",
+    contact_title: "Связаться с нами",
+
+    form_submit: "Отправить →",
+
+    footer_about: "О нас",
+    footer_contact: "Контакты"
+  }
 };
 
 // LANGUAGE SYSTEM
