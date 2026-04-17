@@ -840,6 +840,13 @@ nav.scrolled {
   flex-shrink: 0;
   color: var(--primary);
 }
+.info-item span a {
+  text-decoration: none;
+}
+.info-item span  {
+  text-decoration: none;
+ 
+}
 
 .info-text strong {
   display: block;
