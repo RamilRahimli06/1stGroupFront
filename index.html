@@ -508,15 +508,15 @@
   </div>
 </footer>
 
-  <button id="backTop"onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+  <!-- BACK TO TOP -->
+<button id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
-  <script src="js/script.js"></script>
-  <!-- CONTACT SECTION -->
-<section>
-   ...
-</section>
-<script src="js/translations.js"></script>
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- MAIN SCRIPT -->
 <script src="js/script.js"></script>
+
 <script>
 async function submitForm() {
 
@@ -541,8 +541,6 @@ async function submitForm() {
         const result = await response.json();
 
         if (response.ok) {
-            console.log("Success:", result);
-
             document.getElementById("successMsg").style.display = "block";
 
             document.getElementById("fname").value = "";
@@ -553,12 +551,10 @@ async function submitForm() {
             document.getElementById("message").value = "";
         } 
         else {
-            console.log("Error:", result);
             alert(result.error || "Xəta baş verdi");
         }
 
     } catch (error) {
-        console.error("Network Error:", error);
         alert("Serverə qoşulmaq olmadı");
     }
 }
